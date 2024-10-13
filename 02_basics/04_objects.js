@@ -30,3 +30,26 @@ const obj3 = {5: "a", 6: "b"}
 const obj4 = {...obj1, ...obj2}
 console.log(obj4);  // { '1': 'a', '2': 'b', '3': 'a', '4': 'b' }
 
+
+
+const users = [
+    {
+        id: 1,
+        email: "kumar@gmail.com"
+    },
+    {
+        id: 2,
+        email: "arjun@gmail.com"
+    },
+    {
+        id: 3,
+        email: "ar@gmail.com",
+    }
+]
+
+let match = users[1].email
+console.log(match);  // arjun@gmail.com
+
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
