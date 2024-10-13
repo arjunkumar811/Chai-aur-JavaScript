@@ -1,10 +1,10 @@
 // dates
 
  let myDate = new Date()
-// console.log(myDate); // 2024-10-13T15:35:08.010Z
-// console.log(myDate.toString()); // Sun Oct 13 2024 15:35:08 GMT+0000 (Coordinated Universal Time)
-// console.log(myDate.toLocaleString()); // 10/13/2024, 3:37:44 PM
-// console.log(typeof myDate); // object
+ console.log(myDate); // 2024-10-13T15:35:08.010Z
+ console.log(myDate.toString()); // Sun Oct 13 2024 15:35:08 GMT+0000 (Coordinated Universal Time)
+ console.log(myDate.toLocaleString()); // 10/13/2024, 3:37:44 PM
+ console.log(typeof myDate); // object
 
 
 
@@ -31,5 +31,14 @@ console.log(myCreateDate.getTime()); // 1674432000000
 console.log(Math.floor(Date.now()/1000)); // 1728835145
 
 
+let newDate = new Date()
+console.log(newDate); // 2024-10-13T16:02:54.009Z
+console.log(newDate.getMonth() + 1); // 10
+console.log(newDate.getDay()); // 0
 
+// `${newDate.getDay()} and the time `
 
+newDate.toLocaleString('default', {
+    weekday: "long",
+    
+})
