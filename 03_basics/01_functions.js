@@ -41,14 +41,28 @@
 
 
 
-const user = {
-    username: "Arjun",
-    followers: 234
-}
+// const user = {
+//     username: "Arjun",
+//     followers: 234
+// }
 
-function simga() {
-    console.log(`Hi there my username is ${user.username} and followers ${user.followers}`);
+// function simga() {
+//     console.log(`Hi there my username is ${user.username} and followers ${user.followers}`);
     
+// }
+
+// simga() // Hi there my username is Arjun and followers 234
+
+
+// handleObject(user)
+function handleObject(user) {
+    console.log(user.username);  // Arjun
+    console.log(user.followers); // 99
 }
 
-simga() // Hi there my username is Arjun and followers 234
+
+
+handleObject({
+    username: "Arjun",
+    followers: 99
+});
