@@ -44,3 +44,15 @@ const twoNum = (n1, n2) => {
 const result = twoNum(1, 2);
 console.log(result); // 3
 
+
+const sum = (n1, n2) => (n1 + n2)
+console.log(sum(1, 3)); // 4
+
+
+const myArray = [2, 5, 3, 7, 8];
+
+myArray.forEach(function(element) {
+    console.log(element);
+});
+
+
