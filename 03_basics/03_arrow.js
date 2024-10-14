@@ -37,5 +37,10 @@
 
  chai()  //  Arjun
 
+const twoNum = (n1, n2) => {
+  return n1 + n2
+}
 
+const result = twoNum(1, 2);
+console.log(result); // 3
 
