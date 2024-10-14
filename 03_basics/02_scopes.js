@@ -26,3 +26,16 @@ function one() {
 one()
 
 
+if (true) {
+    const username = "Arjun"
+    if (username === "Arjun") {
+        const website = "x.com"
+         console.log(username + website); // Arjunx.com
+    }
+    // console.log(website);
+}
+
+
+
+
+
