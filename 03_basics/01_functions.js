@@ -23,13 +23,32 @@
 // console.log(sum1(2, 3)); // 5
 
 
-function loginUserMessage(username = "arjun") {
-    if(!username) {
-        console.log("Please enter a username");
-       return       
-    }
-    return `${username} just logged in`
-}
+// function loginUserMessage(username = "arjun") {
+//     if(!username) {
+//         console.log("Please enter a username");
+//        return       
+//     }
+//     return `${username} just logged in`
+// }
  
-console.log(loginUserMessage("Arjun")); // Arjun just logged in
+// console.log(loginUserMessage("Arjun")); // Arjun just logged in
 
+// function calculateCartPrice(val1, val2, ...num1) {
+//     return num1
+// }
+
+// console.log(calculateCartPrice(200, 300, 1234)); // [ 1234 ]
+
+
+
+const user = {
+    username: "Arjun",
+    followers: 234
+}
+
+function simga() {
+    console.log(`Hi there my username is ${user.username} and followers ${user.followers}`);
+    
+}
+
+simga() // Hi there my username is Arjun and followers 234
