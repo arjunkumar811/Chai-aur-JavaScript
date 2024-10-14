@@ -1,25 +1,38 @@
-const user = {
-    username: "Arjun",
-    password: 123123,
+// const user = {
+//     username: "Arjun",
+//     password: 123123,
 
 
-    welcomeMessage: function() {
-        console.log(`${this.username} , welcome to website`);
-        console.log(this);
-    }
+//     welcomeMessage: function() {
+//         console.log(`${this.username} , welcome to website`);
+//         console.log(this);
+//     }
 
-}
+// }
 
- user.welcomeMessage()
- user.username = "sam"
- user.welcomeMessage()
+//  user.welcomeMessage()
+//  user.username = "sam"
+//  user.welcomeMessage()
 
- console.log(this);
+//  console.log(this);
 
- function chai(){
-     let username = "hitesh"
+//  function chai(){
+//      let username = "hitesh"
+//      console.log(this.username);
+//  }
+
+// chai()
+
+ const chai = function() {
+     let username = "Arjunkumar"
      console.log(this.username);
+ } 
+
+ chai()  // undefined
+
+ const chai1 = () => {
+     let username = "Arjun"
+     console.log(this);
  }
 
-chai()
-
+ chai1()  // {}
