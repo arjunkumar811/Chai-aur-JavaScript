@@ -23,16 +23,19 @@
 
 // chai()
 
- const chai = function() {
-     let username = "Arjunkumar"
-     console.log(this.username);
- } 
+//  const chai = function() {
+//      let username = "Arjunkumar"
+//      console.log(this.username);
+//  } 
 
- chai()  // undefined
+//  chai()  // undefined
 
- const chai1 = () => {
+ const chai = () => {
      let username = "Arjun"
-     console.log(this);
+     console.log(username);
  }
 
- chai1()  // {}
+ chai()  //  Arjun
+
+
+
