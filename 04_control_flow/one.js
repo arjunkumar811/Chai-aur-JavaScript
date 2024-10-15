@@ -36,4 +36,11 @@ if (balance < 500) {
 
 
 
+const USerloggedIn = true
+const debitCard = true
+const loggedInFromGoogle = false
+const loggedInFromEmail = true
+
+
+
 
