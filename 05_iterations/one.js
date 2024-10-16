@@ -29,3 +29,13 @@ for (let index = 0; index < myArray.length; index++) {
     console.log(element); // yash druve rokey
 }
 
+
+// break and continue 
+
+for (let i=1; i<=20; i++) {
+    if(i == 5) {
+        console.log(`Detected 5`); // Detected 5
+       break
+    }
+    console.log(`value is : ${i}`);
+}
