@@ -9,8 +9,17 @@
     
 // }
 
-const greeting = "Hello Arjun!"
-for (const greet of greeting) {
-    console.log(`Ecah char is ${greet}`);
-    
-}
+// const greeting = "Hello Arjun!"
+// for (const greet of greeting) {
+//     console.log(`Ecah char is ${greet}`);
+// }
+
+// Maps 
+const map = new Map() 
+map.set('IN', "india")
+map.set('USA', "United Sates of America")
+map.set('FR', "France")
+
+
+console.log(map);
+
