@@ -1,29 +1,29 @@
-// const coding = ["js", "ruby", "java", "python", "cpp"]
+const coding = ["js", "ruby", "java", "python", "cpp"]
 
-//  const values = coding.forEach((item)=> {
-//     // console.log(item);
-//       return item;
-// })
-
-
-// const myName = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
-// const newNums = myName.filter((num)=> {
-//     return num > 4
-// })
-
-// console.log(newNums); // [ 5, 6, 7, 8, 9, 10 ]
+ const values = coding.forEach((item)=> {
+    // console.log(item);
+      return item;
+})
 
 
-// const newNums = []
+const myName = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-// myName.forEach((num)=> {
-//     if (num > 4) {
-//         newNums.push(num)
-//     }
-// })
+const newNums = myName.filter((num)=> {
+    return num > 4
+})
 
-// console.log(newNums); // [ 5, 6, 7, 8, 9, 10 ]
+console.log(newNums); // [ 5, 6, 7, 8, 9, 10 ]
+
+
+const newNums1 = []
+
+myName.forEach((num)=> {
+    if (num > 4) {
+        newNums.push(num)
+    }
+})
+
+console.log(newNums1); // [ 5, 6, 7, 8, 9, 10 ]
 
 
 
@@ -46,4 +46,14 @@ const books = [
   })
 
   console.log(userBooks);
+
+
+//   [
+//     {
+//       title: 'Book Three',
+//       genre: 'History',
+//       publish: 1999,
+//       edition: 2007
+//     }
+//   ]
   
